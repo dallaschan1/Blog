@@ -1,10 +1,4 @@
 
-  .full-height-card {
-    height: auto; 
-    overflow-y: auto; 
-    margin-top: 40px;
-  }
-
  
 
   .card-anchor {
@@ -71,7 +65,12 @@ ul li::before {
 }
 .Activities li{
     font-size: 20px;
+    
 }
+.Activities > li{
+    margin-bottom: 30px;
+}
+
 .Activities ul li::before {
     content: '•'; 
     position: absolute; 
