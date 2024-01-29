@@ -12,7 +12,7 @@
     background-color:antiquewhite;
 }
 
-#card1 img {
+.card img {
     border-radius: 50%;
     width: 500px;
     height: 450px;
@@ -89,4 +89,15 @@ ul li::before {
 
 #navbarNavDropdown{
     margin-right: 50px;
+}
+
+.week5.week5 {
+    width: 400px;
+    height: 400px;
+    border-radius: 0; 
+}
+
+.week5-images{
+    display: flex;
+    gap: 30px;
 }
